@@ -1,1 +1,56 @@
-hlo
+<!DOCTYPE html>
+<html lang="en">
+   
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+        <title>login</title>
+        <style>
+            body {
+                background-color: cyan; 
+                font-family: 'Times New Roman', Times, serif;  
+                background-image: url("inception.jpg");          
+            }
+            form {
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                align-content: center;
+        </style>
+    </head>
+    <center>
+    <body>
+        <form align="center" action="submit.html" method="GET">
+            <p>
+                <label for="uid">enter your user id</label>
+                <input type="text" id="uid" name="uname" placeholder="enter your username" size="20" maxlength="25" required>
+            </p>
+            <p>
+                <label for="pass"><em>enter your passowrd</em></label>
+                <input type="password" id="pass" name="pwd" placeholder="enter your password" size="20" maxlength="10" required>
+            </p>
+            <p>
+                <input type="submit" name="sub" value="login">    <input type="reset" name="res" value="reset">
+            </p>
+        </form>
+    </body>
+    </center>
+</html>
+
+//separate html from here
+<!DOCTYPE html>
+<html>
+    <title>simple form</title>
+    <body>
+        <form method="POST">
+        <p>
+            username:<input type="text" name="username" placeholder="type here" size="10" maxlength="25"> 
+        </p>
+        <p>
+            password:<input type="password" name="password" placeholder="type here" size="10" maxlength="10">
+        </p>
+        <p>
+            <input type="submit" value="send"> 
+        </p>
+        </form>
+    </body>
+</html>
