@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title> Bio Data Form</title>
+    </head>
+    <body>
     <H1 align="center"> BIO DATA</H1>
     <br>
     <h2 style="background-color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; color: white ;"> Personal Data</h2>
@@ -7,7 +11,22 @@
         <table>
             <tr>
                 <Td>Name: </Td>
-                <td> <input type="text" name="name"></td>
+                <td> <input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td> Age:</td>
+                <td> <input type="number" min="15" max="100" id="age" > </td>
+            </tr>
+            <tr>
+                <td> Gender</td>
+                <td> <input type="radio" name="Gender" id="Male"> Male
+                    <input type="radio" name="Gender" id="Female"> Female
+                    <input type="radio" name="Gender" id="Other/Not"> Other/ Not to Specify
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile Number </td>
+                <td> <input type="tel" name="number" id="number"> </td>
                 <td> Citizenship: </td>
                 <td>
                 <select id="country" name="country">
@@ -259,24 +278,64 @@
             </td>
             </tr>
             <tr>
-                <td> Age:</td>
-                <td> <input type="number" min="15" max="100" > </td>
-            </tr>
-            <tr>
-                <td> Gender</td>
-                <td> <input type="radio" name="Gender" id="Male"> Male
-                    <input type="radio" name="Gender" id="Female"> Female
-                    <input type="radio" name="Gender" id="Other/Not"> Other/ Not to Specify
-                </td>
-            </tr>
-            <tr>
-                <td>Mobile Number </td>
-                <td> <input type="tel" name="number"> </td>
-            </tr>
-            <tr>
                 <td> Address</td>
                 <td> <textarea id="Address" name="Address" rows="4" cols="50"></textarea></td>
             </tr>
         </table>
+        <h2 style="background-color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; color: white ;">Academic Details</h2>
+        <table>
+            <tr>
+            <td>Name of High School(As in Certificate)</td>
+            <td> <input type="text" id="School"> </td>
+            </tr>
+            <tr>
+                <td> Name of University</td>
+                <td><input type="text" id="University"> </td>
+                <td> Qualification</td>
+                <td> <input type="radio" name="Gender" id="BTech"> BTech
+                    <input type="radio" name="Gender" id="MTech"> MTech
+                    <input type="radio" name="Gender" id="Others except PhD">Others except PhD 
+                </td>
+            </tr>
+            <tr>
+                <td> Year of Graduation</td>
+                <td> <input type="number" name="year" id="Year of Graduation" min="2015" max="2021" id="age"></td>
+            </tr>
+            <tr>
+                <td> Special Skills if any other than core skills </td>
+                <td> <textarea id="spl" name="Skills" rows="4" cols="50"></textarea></td>
+            </tr>
+        </table>
+        <h2 style="background-color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; color: white ;">Reference</h2>
+        <table>
+            <tr>
+                <td>Name </td>
+                <td><input type="text" name="name" id="Ref_name"> </td>
+                <td> Position Held:</td>
+                <td><input type="text" name="position" id="Ref_Pos"> </td>
+            </tr>
+            <tr>
+                <td> Company</td>
+                <td><input type="text" name="comp" id="Company"> </td>
+                <td> Contact Number</td>
+                <td><input type="tel" name="Contact" id="Ref_Cont"></td>
+        </table>
+        <h2 style="background-color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; color: white ;">Files and Certificates</h2>
+            <h4> Photo</h4>
+            <input type="file" name="pic" id="pic">
+            <h4> High School Certificate</h4>
+            <input type="file" name="HSC" id="hsc">
+            <h4> Under graduation Certificate</h4>
+            <input type="file" name="UGC" id="ugc">
+            <h4> Additional Certificates</h4>
+            <input type="file" name="C1" id="c1">
+            <input type="file" name="C2" id="c2">
+            <input type="file" name="C3" id="c3">
+            <br><br>
+            <br>
+        <input type="submit" >
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="reset">
     </form>
+    </body>
 </html>
