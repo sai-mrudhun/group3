@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial scale=0"/>
+        <title>Bhavish Aggarbal1 | profile</title>
+<style>
+    #mark {
+        vertical-align: top ;
+        line-height: 2;
+        border-radius: 300%;
+    }
+      body {
+        text-align: left;
+        line-height: 1.5;
+    }
+    #banner {
+        background:  url("background.png") center center;
+        background-repeat: no-repeat;
+    }
+    #about {
+        background-color: rgb(172, 172, 172);
+    }
+    .profile {
+       color: rgb(68, 68, 255) ;
+       font-family: 'Times New Roman', Times, serif;
+       font-style: italic;
+    }
+    #stat {
+        color: red;
+        font-style: italic;
+    }
+</style>    
+    </head>
+    <body style="font-size: 1.5rem;">
+        <div id="banner"><br><img src="D:\html\tim.jpg" alt="markzuc" id="mark" width="300px" height="200px">
+        </div>
+        <pre> <span style="font-size: 2em; font-family: 'Times New Roman', Times, serif;">Tom Book</span></pre><hr>
+        <div id="about"><p>worked in starbucks<br>
+         worked at ipl.t20<br>
+         <nav align="right">
+            <h1></h1>
+            <ul type="none">
+                <li>last company worked in: starbucks </li>
+                <li>Studied at: university of washington</li>
+            </ul>
+        </nav>
+        Degree:B.Tech. Software Engineering<br>
+ ME in Software Engineering<br>
+        <span id="age">age: 40</span><br>
+        experience: 10 years<br>
+        <span style="font-size: 30px;">Achievements:</span>
+        <ul type="none">
+            <li>won first place in app fest in 2005</li>
+            <li>came fourth in world level app meet in 2007</li>
+            <li>came first in national C++ meet in 2017</li>
+        </ul>
+    current status: <span id="stat">employed</span></p> 
+
+</div><hr>
+        <pre style="font-family: 'Times New Roman', Times, serif;" class="profile">
+ Contact details
+ mobile number: 5434656662
+  E-mail:jacksparrow@gmail.com<br>
+        </pre>
+        <center>
+            <a href="submit.html" target="_blank">
+        <button style="background-color: lightsalmon; border-radius: 30px; height: 50px; width: 150px;" ><em style="font-family: 'Times New Roman', Times, serif; color: black; font-weight: bold; font-size: 18px;">download resume</em>
+        </button></a>
+        </center>
+    </body>
+</html>  
