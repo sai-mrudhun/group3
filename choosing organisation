@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-image: url('https://d19d5sz0wkl0lu.cloudfront.net/dims4/default/ebb0ae9/2147483647/resize/300x%3E/quality/90/?url=https%3A%2F%2Fatd-brightspot.s3.amazonaws.com%2Forganiztional-20culture.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: 900px;">
+        <table border=1 
+         height=470px width=470px style="border-collapse: seperate; border-spacing: 10px 10px;border-width:0px;" align ="left"
+          cellpadding="7" cellspacing="10">
+          <p style="color:#2977c9; font-size:50px;">
+            What are you currently doing <br>or gonna be in future:
+          </p>
+        <tr style="background-color:rgb(211, 211, 211)">
+            <td style="border-color:#2977c9; border-width: 5px" align="center"><a href="full stack.html">
+                <img src="Full-stack-developer.png" alt="Full-stack-developer" height=200 width =200></a><br>
+                <a href="full stack.html">Full-stack-developer</a>
+                <br></td>
+                <td style="border-color:#2977c9; border-width: 5px" align="center" ><a href="">
+                    <img src="frontend.png" alt="Front end devoloper" height=200 width =200></a><br>
+                    <a href="">Front end devoloper</a>
+                    <br></td></tr>
+                    <tr style="background-color:rgb(211, 211, 211)">
+                    <td style="border-color:#2977c9; border-width: 5px" align="center"><a href="back end.html">
+                        <img src="backend.png" alt="Back-end-developer" height=200 width =200></a><br>
+                        <a href=""> Back-end-developer</a>
+                        <br></td>
+                        <td style="border-color:#2977c9; border-width: 5px" align="center"><a href="">
+                            <img src="software.png" alt="Software devolper" height=200 width =200></a><br>
+                            <a href="">Software devolper</a>
+                            <br></td>
+              
+        </tr></table>
+    </body></html>
